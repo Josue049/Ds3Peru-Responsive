@@ -1,3 +1,4 @@
+import React from "react";
 import "./Footer.css"; // aquí pondrás tu CSS
 import logoDs3 from "../assets/ds3logo.png";
 

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import React from "react";
 import "./ProductosRelacionados.css";
 
 const products = [
