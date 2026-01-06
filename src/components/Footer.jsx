@@ -1,6 +1,7 @@
-import React from "react";
 import "./Footer.css"; // aquí pondrás tu CSS
 import logoDs3 from "../assets/ds3logo.png";
+import React, { useState, useEffect, useRef } from "react";
+
 
 export default function Footer() {
   return (

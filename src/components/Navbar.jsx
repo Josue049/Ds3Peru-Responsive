@@ -1,5 +1,5 @@
-import React from "react";
 import "./Navbar.css";
+import React, { useState, useEffect, useRef } from "react";
 
 import AirLive from "../assets/logos/Airlive.png";
 import aJhua from "../assets/logos/aJhua.png";
@@ -414,25 +414,67 @@ export default function Navbar() {
                 </ul>
               </ul>
             )}
-            <li className="sidebar-it">
+            <li
+              className="sidebar-it"
+              onClick={() =>
+                (window.location.href =
+                  "https://www.ds3comunicaciones.com/cisco/catalys_9200l.html")
+              }
+            >
               <span>SWITCH CATALYST</span>
             </li>
-            <li className="sidebar-it">
+            <li
+              className="sidebar-it"
+              onClick={() =>
+                (window.location.href =
+                  "https://www.ds3comunicaciones.com/cisco/bussines_sg350.html")
+              }
+            >
               <span>CISCO BUSINESS</span>
             </li>
-            <li className="sidebar-it">
+            <li
+              className="sidebar-it"
+              onClick={() =>
+                (window.location.href =
+                  "https://www.ds3comunicaciones.com/cisco/precios_cisco_switch_industrial_b.html")
+              }
+            >
               <span>SWITCH INDUSTRIAL</span>
             </li>
-            <li className="sidebar-it">
+            <li
+              className="sidebar-it"
+              onClick={() =>
+                (window.location.href =
+                  "https://www.ds3comunicaciones.com/cisco/precios_cisco_access_point_b.html")
+              }
+            >
               <span>AIRONET</span>
             </li>
-            <li className="sidebar-it">
+            <li
+              className="sidebar-it"
+              onClick={() =>
+                (window.location.href =
+                  "https://www.ds3comunicaciones.com/cisco/precios_cisco_telefonos_b.html")
+              }
+            >
               <span>TELEFONO</span>
             </li>
-            <li className="sidebar-it">
+            <li
+              className="sidebar-it"
+              onClick={() =>
+                (window.location.href =
+                  "https://ds3comunicaciones.com/cisco/precios_cisco_meraki_b.html")
+              }
+            >
               <span>MERAKI</span>
             </li>
-            <li className="sidebar-it">
+            <li
+              className="sidebar-it"
+              onClick={() =>
+                (window.location.href =
+                  "#")
+              }
+            >
               <span>TRANSCEIVER</span>
             </li>
           </div>
@@ -471,7 +513,8 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <img className="cisco-gif-desktop"
+            <img
+              className="cisco-gif-desktop"
               src="https://www.ds3comunicaciones.com/cisco/images/cisco-gif.gif"
               alt="Cisco"
             />

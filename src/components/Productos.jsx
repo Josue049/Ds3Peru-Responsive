@@ -1,5 +1,5 @@
-import React from "react";
 import "./Productos.css";
+import React, { useState, useEffect, useRef } from "react";
 
 export default function Productos() {
   const images = [
