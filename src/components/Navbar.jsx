@@ -42,7 +42,7 @@ export default function Navbar() {
           ☰
         </button>
 
-        <a href="/" className="logo-container">
+        <a href="https://www.ds3comunicaciones.com/index.html" className="logo-container">
           <img
             src="https://www.ds3comunicaciones.com/mikrotik/images/Logo1.jpg"
             alt="DS3 Comunicaciones Logo"
